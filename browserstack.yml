@@ -1,0 +1,26 @@
+userName: qaqa_eo7wIO
+accessKey: u8HoFRWtTAT4DfLphEEZ
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 106.0
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: 91.0
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Safari
+    browserVersion: 14.1
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Sample
+testObservability: true
+networkLogs: true
+consoleLogs: info
+percy: false
+percyCaptureMode: auto
